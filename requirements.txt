@@ -1,0 +1,8 @@
+requests~=2.32.3
+web3~=7.8.0
+loguru~=0.7.3
+eth-account~=0.13.5
+mnemonic~=0.21
+openpyxl~=3.1.5
+eth-keys~=0.6.1
+bip32utils~=0.3.post4
