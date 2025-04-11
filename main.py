@@ -593,6 +593,12 @@ def process_wallet(account_data):
     write_cell("wallet.xlsx", "STATUS", number_wallet, log_formatted(history))
 
 def main():
+    print("======== WEB3 WITHDRAW TO CEX ========")
+    print(f"Наши ресурсы:\n"
+          f"Telegram-канал: @quantumlab_official\n"
+          f"Продукты: @quantum_lab_bot\n\n")
+
+    
     account_file_name = "wallet.xlsx"
     accounts_for_work = get_profile_for_work(account_file_name)
 
@@ -618,6 +624,10 @@ def main():
     else:
         logger.warning(f"❌ Нет аккаунтов для работы! Проверьте данные в таблице!")
 
+    print(f"Наши ресурсы:\n"
+          f"Telegram-канал: @quantumlab_official\n"
+          f"Продукты: @quantum_lab_bot\n\n")
+    print("======== WEB3 WITHDRAW TO CEX ========")
 
 main()
 
